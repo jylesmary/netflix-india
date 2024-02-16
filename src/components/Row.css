@@ -5,6 +5,7 @@
 
 .movies-row{
     display: flex;
+    /* justify-content: space-between; */
     overflow-x: scroll;
     margin-top: 20px;
 }
@@ -16,6 +17,7 @@
 .movie{
     width: 200px;
     object-fit: contain;
+    margin-right: 10px;
     transition: transform 460ms;
 }
 
